@@ -42,7 +42,7 @@ Access Time O(n).    <br />
         <- | previous | data | next | ->
                firstNode ... lastNode
 
-### [SinglyLinkedList<-T->](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/linkedlists/linkedlists/SinglyLinkedList/SinglyLinkedListNode.cs)   
+### [SinglyLinkedList<-T->](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/linkedlists/linkedlists/SinglyLinkedList/SinglyLinkedList.cs)   
 SinglyLinkedList<-T->   |   Tek Yönlü Bağlı Liste  
 First Node = Head   |   Last Node = Tail -> NULL
 
