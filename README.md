@@ -59,7 +59,7 @@ First Node = Head   |   Last Node = Tail -> NULL
 - Deleting first node in the singly linked list O(1).
 - Deleting last node in the singly linked list O(n).
 - Deleting an intermediate node in the singly linked list O(n).
-<br />
+
 ![](/pictures/SinglyLinkedLists.PNG)
 
 
