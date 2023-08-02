@@ -1,0 +1,15 @@
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\bin\Debug\net6.0\linkedlists.exe
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\bin\Debug\net6.0\linkedlists.deps.json
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\bin\Debug\net6.0\linkedlists.runtimeconfig.json
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\bin\Debug\net6.0\linkedlists.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\bin\Debug\net6.0\linkedlists.pdb
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\obj\Debug\net6.0\linkedlists.csproj.AssemblyReference.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\obj\Debug\net6.0\linkedlists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\obj\Debug\net6.0\linkedlists.AssemblyInfoInputs.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\obj\Debug\net6.0\linkedlists.AssemblyInfo.cs
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\obj\Debug\net6.0\linkedlists.csproj.CoreCompileInputs.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\obj\Debug\net6.0\linkedlists.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\obj\Debug\net6.0\refint\linkedlists.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\obj\Debug\net6.0\linkedlists.pdb
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\obj\Debug\net6.0\linkedlists.genruntimeconfig.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\linkedlists\linkedlists\obj\Debug\net6.0\ref\linkedlists.dll
