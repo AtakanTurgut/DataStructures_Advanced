@@ -1,0 +1,15 @@
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\bin\Debug\net6.0\stacks.exe
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\bin\Debug\net6.0\stacks.deps.json
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\bin\Debug\net6.0\stacks.runtimeconfig.json
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\bin\Debug\net6.0\stacks.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\bin\Debug\net6.0\stacks.pdb
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\obj\Debug\net6.0\stacks.csproj.AssemblyReference.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\obj\Debug\net6.0\stacks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\obj\Debug\net6.0\stacks.AssemblyInfoInputs.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\obj\Debug\net6.0\stacks.AssemblyInfo.cs
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\obj\Debug\net6.0\stacks.csproj.CoreCompileInputs.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\obj\Debug\net6.0\stacks.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\obj\Debug\net6.0\refint\stacks.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\obj\Debug\net6.0\stacks.pdb
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\obj\Debug\net6.0\stacks.genruntimeconfig.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\stacks\stacks\obj\Debug\net6.0\ref\stacks.dll

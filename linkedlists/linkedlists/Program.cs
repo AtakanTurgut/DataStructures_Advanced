@@ -1,7 +1,7 @@
-﻿#region - SinglyLinkedList -
-
+﻿using linkedlists.DoublyLinkedList;
 using linkedlists.SinglyLinkedList;
-using System.Collections;
+
+#region - SinglyLinkedList -
 
 var linkedList = new SinglyLinkedList<int>();
 linkedList.AddFirst(1);
@@ -84,6 +84,7 @@ foreach (var item in linkedList)
 // (88)   99  (6)   7    8    (1)
 // 99   7    8
 
+#region - Test -
 Console.WriteLine();
 Console.WriteLine(new string('-',50));
 Console.ReadKey();
@@ -107,8 +108,11 @@ foreach (var item in charSet)
 {
     Console.Write($"{item,-5}");
 }
+#endregion
+#endregion
 
 #region - Language Integrated Query - LINQ -
+
 Console.WriteLine();
 Console.WriteLine(new string('-', 50));
 Console.ReadKey();
@@ -121,9 +125,9 @@ var query = from item in linkedList
             where item % 2 == 1
             select item;
 
-linkedList.Where(x => x>5)
+linkedList.Where(x => x > 5)
     .ToList()
-    .ForEach(x => Console.Write($"{x, -5}"));
+    .ForEach(x => Console.Write($"{x,-5}"));
 
 Console.WriteLine();
 
@@ -132,10 +136,80 @@ foreach (var item in query)
     Console.WriteLine(item);
 }
 
-
-#endregion
 #endregion
 
+Console.WriteLine();
+Console.WriteLine(" --   Singly-DoublyLinkedList   -- ");
+Console.WriteLine();
+Console.ReadKey();
 
+#region - DoublyLinkedList -
 
+var dlinkedList = new DoublyLinkedList<int>();
+dlinkedList.AddFirst(1);    // 1
+dlinkedList.AddFirst(2);    // 2
+// 2   1
+
+dlinkedList.AddLast(3);    // 3
+dlinkedList.AddLast(4);    // 4
+dlinkedList.AddLast(9);    // 9
+// 2   1   3   4   9
+
+dlinkedList.AddAfter(dlinkedList.Head.Next, new DoublyLinkedListNode<int>(5));
+// 2(H)   1(N)   3   4   9
+// 2(H)   1(N)   5(A)  3   4   9
+
+dlinkedList.AddBefore(dlinkedList.Head.Next.Next, new DoublyLinkedListNode<int>(6));
+// 2(H)   1(N)   5(N)   3   4   9
+// 2(H)   1(N)   6(A)   5(N)   3   4   9
+
+dlinkedList.AddBefore(dlinkedList.Head.Next.Next.Prev, new DoublyLinkedListNode<int>(100));
+// 2(H)   1(P)   6(N)   5   3   4   9
+// 2(H) 100(B)   1(P)   6(N)   5   3   4   9
+
+foreach (var item in dlinkedList)
+{
+    Console.Write($"{item,-5}");
+}
+// 2   100  1    6    5    3    4   9
+
+// Remove First Node
+Console.WriteLine();
+Console.WriteLine(dlinkedList.RemoveFirst() + " has been removed.");       // 2
+Console.WriteLine(dlinkedList.RemoveFirst() + " has been removed.");       // 100
+
+foreach (var item in dlinkedList)
+{
+    Console.Write($"{item,-5}");
+}
+// (2   100)  1    6    5    3    4   9
+//  1    6    5    3    4    9
+
+// Remove Last Node
+Console.WriteLine();
+Console.WriteLine(dlinkedList.RemoveLast() + " has been removed.");       // 9
+Console.WriteLine(dlinkedList.RemoveLast() + " has been removed.");       // 4
+
+foreach (var item in dlinkedList)
+{
+    Console.Write($"{item,-5}");
+}
+// 1    6    5    3   (4    9)
+// 1    6    5    3
+
+Console.WriteLine();
+dlinkedList.Remove(6);   // 6
+dlinkedList.Remove(1);   // 1 Last Node
+dlinkedList.Remove(3);   // 3 First Node
+
+foreach (var item in dlinkedList)
+{
+    Console.Write($"{item,-5}");
+}
+// (1)   (6)    5    (3)
+// 5
+
+#endregion
+
+Console.WriteLine();
 Console.ReadKey();

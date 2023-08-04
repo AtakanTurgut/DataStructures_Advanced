@@ -10,6 +10,9 @@ namespace linkedlists.SinglyLinkedList
 {
     public class SinglyLinkedList<T> : IEnumerable<T>
     {
+        public SinglyLinkedListNode<T> Head { get; set; }
+        private bool IsHeadNull => Head == null ? true : false;
+
         public SinglyLinkedList()
         {
             
@@ -22,9 +25,6 @@ namespace linkedlists.SinglyLinkedList
                 this.AddLast(item);
             }
         }
-
-        public SinglyLinkedListNode<T> Head { get; set; }
-        private bool IsHeadNull => Head == null ? true : false;
 
         // Inserting at the beginning (Head) O(1).
         public void AddFirst(T value)
@@ -115,6 +115,7 @@ namespace linkedlists.SinglyLinkedList
             throw new ArgumentException("The reference node is not in this list.");
         }
 
+        // Inserting at the middle O(n).
         public void AddBefore(SinglyLinkedListNode<T> node, T value)
         {
             if (node == null)
@@ -174,6 +175,7 @@ namespace linkedlists.SinglyLinkedList
             throw new ArgumentException("The reference node is not in this list.");
         }
 
+        // Traversing the list O(n).
         public IEnumerator<T> GetEnumerator()
         {
             return new SinglyLinkedListEnumerator<T>(Head);
@@ -184,6 +186,7 @@ namespace linkedlists.SinglyLinkedList
             return GetEnumerator();
         }
 
+        // Deleting first node in the singly linked list O(1).
         public T RemoveFirst()
         {
             if (IsHeadNull)
@@ -197,6 +200,7 @@ namespace linkedlists.SinglyLinkedList
             return firstValue;
         }
 
+        // Deleting last node in the singly linked list O(n).
         public T RemoveLast()
         {
             var current = Head;
@@ -214,6 +218,7 @@ namespace linkedlists.SinglyLinkedList
             return lastValue;
         }
 
+        // Deleting an intermediate node in the singly linked list O(n).
         public void Remove(T value)
         {
             if (IsHeadNull)
