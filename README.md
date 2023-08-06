@@ -181,8 +181,8 @@ Left Subtree (smaller than Root) | Right Subtree (larger than Root)    <br />
       4                     4    5  6   
 ```
 
-Left Subtree (smaller than Root) | Right Subtree (larger than Root)     <br />
-Left to Right for Add.    <br />
+- Left Subtree (smaller than Root) | Right Subtree (larger than Root)     <br />
+-- Left to Right for Add.    <br />
 
 ```
             23                  
