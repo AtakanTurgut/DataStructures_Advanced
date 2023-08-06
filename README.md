@@ -124,10 +124,10 @@ Left Subtree (smaller than Root) | Right Subtree (larger than Root)    <br />
 
 ```
             1
-          /   \                 PreOrder  : Data Left Right     - O(n)    1 2 4 5 3 6 7
-        2       3               InOrder   : Left Data Right     - O(n)    4 2 5 1 6 3 7
-       /  \    /  \             PostOrder : Left Right Data     - O(n)    4 5 2 6 7 3 1   
-      4    5  6    7            LevelOrder: Root > Nodes > Leafs - L>R    1 2 3 4 5 6 7
+          /   \              PreOrder  : Data Left Right     - O(n)    1 2 4 5 3 6 7
+        2       3            InOrder   : Left Data Right     - O(n)    4 2 5 1 6 3 7
+       /  \    /  \          PostOrder : Left Right Data     - O(n)    4 5 2 6 7 3 1   
+      4    5  6    7         LevelOrder: Root > Nodes > Leafs - L>R    1 2 3 4 5 6 7
      ||    || ||   ||
      n     n   n    n
 ```
