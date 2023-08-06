@@ -120,7 +120,7 @@ Left Subtree (smaller than Root) | Right Subtree (larger than Root)    <br />
 
         Max Tree Node = 2^(h+1)-1 
 
-### [Traveling on the Tree](https://github.com/AtakanTurgut/DataStructures_Advanced/tree/main/trees/trees/BinaryTree)
+### [Traveling on the Tree](/#)
 
 ```
             1
@@ -208,7 +208,7 @@ The Operating System is used to set operating priorities.   <br />
 
 ![](pictures/Queues.PNG)
 
-## [Priority Queue](#) && [Heaps<-T->](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/heaps/heaps/BHeap.cs)
+## [Priority Queue](/#) && [Heaps<-T->](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/heaps/heaps/BHeap.cs)
 Quick Add and Quick Remove <br/>
 .Insert() .DeleteMin() .DeleteMax() <br/>
 .Enqueue() -> Ekleme O(1)      .Dequeue() -> Çıkarma O(n)    <br />
