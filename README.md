@@ -120,7 +120,7 @@ Left Subtree (smaller than Root) | Right Subtree (larger than Root)    <br />
 
         Max Tree Node = 2^(h+1)-1 
 
-### [Traveling on the Tree](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/trees/trees/BinaryTrees/BinaryTrees.cs)
+### [Traveling on the Tree](https://github.com/AtakanTurgut/DataStructures_Advanced/tree/main/trees/trees/BinaryTree)
 
 ```
             1
@@ -130,19 +130,19 @@ Left Subtree (smaller than Root) | Right Subtree (larger than Root)    <br />
       4    5  6    7
      ||    || ||   ||
      n     n   n    n
-```
 
-- PreOrder  : Data Left Right     - O(n)    1 2 4 5 3 6 7
-- InOrder   : Left Data Right     - O(n)    4 2 5 1 6 3 7
-- PostOrder : Left Right Data     - O(n)    4 5 2 6 7 3 1   
-- LevelOrder: Root > Nodes > Leafs - L>R    1 2 3 4 5 6 7
+  PreOrder  : Data Left Right     - O(n)    1 2 4 5 3 6 7
+  InOrder   : Left Data Right     - O(n)    4 2 5 1 6 3 7
+  PostOrder : Left Right Data     - O(n)    4 5 2 6 7 3 1   
+  LevelOrder: Root > Nodes > Leafs - L>R    1 2 3 4 5 6 7
+```
 
 #### Skew Trees
 - Skew Tree : Just one child from the Nodes.
 - Left Skew Tree 
 - Right Skew Tree
 
-## [BinarySearchTrees<-T->](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/trees/trees/BinarySearchTree/BinarySearchTree.cs) && [BinaryTrees<-T->](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/trees/trees/BinaryTrees/BinaryTrees.cs) 
+## [BinarySearchTrees<-T->](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/trees/trees/BinarySearchTree/BinarySearchTree.cs) && [BinaryTrees<-T->](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/trees/trees/BinaryTree/BinaryTree.cs) 
 
 - The left is followed continuously for the smallest value. O(log(n)) (BST)     <br />
 - The right is followed continuously for the greater value. O(log(n)) (BST)     <br />
@@ -250,10 +250,10 @@ v: 1 5 2 6 7 4 3    |    7 5 6 1 4 2 3    LevelOrder  L>R
 - Select print jons in order of decreasing length
 - Greedy Algorithms
 
-### Min-Heap
+### [Min-Heap](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/heaps/heaps/MinHeap.cs)
 ![](/pictures/heapMin.PNG)
 
-### Max-Heap
+### [Max-Heap](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/heaps/heaps/MaxHeap.cs)
 ![](/pictures/heapMax.PNG)
 
 ### Heapifying
@@ -286,7 +286,6 @@ v: 1 5 2 6 7 4 3    |    7 5 6 1 4 2 3    LevelOrder  L>R
    _11                        Max-Heap  ->  heapify-down                      
  ```
  
- ### Heapsort
- O(nlog(n))
+ - Heapsort : O(nlog(n))
 
 ![](/pictures/Heaps.PNG)
