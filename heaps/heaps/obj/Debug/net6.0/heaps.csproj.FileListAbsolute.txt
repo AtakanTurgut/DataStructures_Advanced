@@ -1,0 +1,15 @@
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\bin\Debug\net6.0\heaps.exe
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\bin\Debug\net6.0\heaps.deps.json
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\bin\Debug\net6.0\heaps.runtimeconfig.json
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\bin\Debug\net6.0\heaps.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\bin\Debug\net6.0\heaps.pdb
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\obj\Debug\net6.0\heaps.csproj.AssemblyReference.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\obj\Debug\net6.0\heaps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\obj\Debug\net6.0\heaps.AssemblyInfoInputs.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\obj\Debug\net6.0\heaps.AssemblyInfo.cs
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\obj\Debug\net6.0\heaps.csproj.CoreCompileInputs.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\obj\Debug\net6.0\heaps.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\obj\Debug\net6.0\refint\heaps.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\obj\Debug\net6.0\heaps.pdb
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\obj\Debug\net6.0\heaps.genruntimeconfig.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\heaps\heaps\obj\Debug\net6.0\ref\heaps.dll

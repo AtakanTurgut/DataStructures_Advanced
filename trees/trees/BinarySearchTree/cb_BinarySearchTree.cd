@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="trees.BinarySearchTree.BinarySearchTreeNode&lt;T&gt;">
+    <Position X="0.5" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACACgAAAAAAA=</HashCode>
+      <FileName>BinarySearchTree\BinarySearchTreeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="trees.BinarySearchTree.BinarySearchTree&lt;T&gt;">
+    <Position X="3.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAADAAAAAABAAAAAAIAAAEAEAAABAAAAA=</HashCode>
+      <FileName>BinarySearchTree\BinarySearchTree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="trees.BinarySearchTree.BinarySearchTreeEnumerator&lt;T&gt;">
+    <Position X="6.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAABAAAAACAAAAAAAAAAAAAoAAAAAAAAAQ=</HashCode>
+      <FileName>BinarySearchTree\BinarySearchTreeEnumerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
