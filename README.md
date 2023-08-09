@@ -300,35 +300,35 @@ DisjointSets<-T-> | Ayrık Küme    Type Safety  -> generic  <br/>
   c -> c                b = b             
 ```
 - 'R' ilişki kümesini belirtir
-
+```cs
         ∀(i≠j) Si ∩ Sj = ∅
-
+```
 - Reflexive:
-
+```cs
         a ∈ S => a R a
         a ≤ a ?? True;
-
+```
 - Symmetric:
-
+```cs
         a, b ∈ S  =>  a R b == b R a  ??  TRUE;
         a ≤ b  !=  b ≤ a  ->  Non-Symmetric!
-      
+```   
 - Transitive:
-
+```cs
         a, b, c ∈ S  =>  a R b == b R c == a R c  ??  TRUE;
         a ≤ b  &&  b ≤ c  ?  a ≤ c == TRUE;   
-
+```
 ### [DisjointSets Abstract Type](/#)
 MAKESET(x)
 - Create a separate set with only element 'x'.  O(1)
 
 UNION(X, Y)
 - Creating a set containing X and Y elements.   O(1)
-
+```cs
         Sx = { a, b, c }
         Sy = { x, y, z }
         Sx, Sy  =>  Sx ∪ Sy  =>  Sx = { a, b, c, x, y, z }
-
+```
 FIND(X)
 - Finding the name of the set containing element X.   O(n)
 - All Nodes in the path are connected to the Root.
