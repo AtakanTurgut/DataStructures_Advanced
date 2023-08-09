@@ -88,7 +88,7 @@ Only the last elements of the stacks can be accessed.   <br />
 Last-in First-out     ->  LIFO  |  First-in Last-out     ->  FILO    <br />
 .push() -> Ekleme          .pop() -> Çıkarma        .Clear() -> Yığını boşaltma        .ToArray() -> int[]     <br />
 
-```
+```cs
         in-fix   ->  3 + 5 => 8
         post-fix ->  3 5 + => 8         operants => 2 * .pop() from stack.
 
@@ -122,7 +122,7 @@ Left Subtree (smaller than Root) | Right Subtree (larger than Root)    <br />
 
 ### [Traveling on the Tree](/#)
 
-```
+```cs
             1
           /   \              PreOrder  : Data Left Right     - O(n)    1 2 4 5 3 6 7
         2       3            InOrder   : Left Data Right     - O(n)    4 2 5 1 6 3 7
@@ -148,7 +148,7 @@ Left Subtree (smaller than Root) | Right Subtree (larger than Root)    <br />
 
 - Strict Binary Tree : No child or two children.
 
-```
+```cs
             1
           /   \
         2       3
@@ -158,7 +158,7 @@ Left Subtree (smaller than Root) | Right Subtree (larger than Root)    <br />
 
 - Full Binary Tree : Two children from the Nodes.
 
-```
+```cs
             1
           /   \
         2       3
@@ -168,7 +168,7 @@ Left Subtree (smaller than Root) | Right Subtree (larger than Root)    <br />
 
 - Complete Binary Tree : Start from the Left Leaf. L>R
 
-```
+```cs
             1                     1
           /   \                 /   \
         2       3     =>      2       3
@@ -179,7 +179,7 @@ Left Subtree (smaller than Root) | Right Subtree (larger than Root)    <br />
 - Left Subtree (smaller than Root) | Right Subtree (larger than Root)     <br />
 -- Left to Right for Add.    <br />
 
-```
+```cs
             23                  
           /   \                 PreOrder   DLR : 23 16 3 22 45 37 99
         16      45              InOrder    LDR : 3 16 22 23 37 45 99
@@ -204,6 +204,8 @@ The Operating System is used to set operating priorities.   <br />
 ![](pictures/Queues.PNG)
 
 ## [Priority Queue](/#) && [Heaps<-T->](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/heaps/heaps/BHeap.cs)
+Priority Queue | Öncelikli Kuyruk <br/>
+Heap<-T-> | Yığın       Type Safety  -> generic <br/>
 Quick Add and Quick Remove <br/>
 .Insert() .DeleteMin() .DeleteMax() <br/>
 .Enqueue() -> Ekleme O(1)      .Dequeue() -> Çıkarma O(n)    <br />
@@ -212,16 +214,18 @@ Quick Add and Quick Remove <br/>
 - The Parent will be older than the Children for `Max-Heap`.
 
 Indexing for zero-based:     - C# -
-- Left Index   = parent.index * 2 + 1;      5 * 2 + 1 = 11;
-- Right Index  = parent.index * 2 + 2;      5 * 2 + 2 = 12;
-- Parent Index = (child.indexes - 1) / 2;   (11 - 1) / 2 = 5, (12 - 1) / 2 = 5;
-
-Indexing for one-based:
-- Left Index   = parent.index * 2;        6 * 2 = 12;
-- Right Index  = parent.index * 2 + 1;    6 * 2 + 1 = 13;
-- Parent Index = child.indexes / 2;       12 / 2 = 6, 13 / 2 = 6;
-
+```cs
+   Left Index   = parent.index * 2 + 1;      5 * 2 + 1 = 11;
+   Right Index  = parent.index * 2 + 2;      5 * 2 + 2 = 12;
+   Parent Index = (child.indexes - 1) / 2;   (11 - 1) / 2 = 5, (12 - 1) / 2 = 5;
 ```
+Indexing for one-based:
+```cs
+   Left Index   = parent.index * 2;        6 * 2 = 12;
+   Right Index  = parent.index * 2 + 1;    6 * 2 + 1 = 13;
+   Parent Index = child.indexes / 2;       12 / 2 = 6, 13 / 2 = 6;
+```
+```cs
      Min-Heap       |      Max-Heap  
     
          1                     7
@@ -258,7 +262,7 @@ v: 1 5 2 6 7 4 3    |    7 5 6 1 4 2 3    LevelOrder  L>R
  Scrolling is done through ancestors. O(log(n)) <br />
 
  - Inserting in Binary Heap
- ```
+ ```cs
             54                    54                    54                   _99                  
           /   \       ->        /   \       ->        /   \        ->       /   \ 
         45      36            45      36           _99      36            54      36
@@ -271,7 +275,7 @@ v: 1 5 2 6 7 4 3    |    7 5 6 1 4 2 3    LevelOrder  L>R
  ```
 
 - Deletion in Binary Heap   =>  The Root Node is deleted.
- ```
+ ```cs
           -(54)            (54)  _11                    45                    45                  
           /   \       ->        /   \       ->        /   \        ->       /   \ 
         45      36            45      36           _11      36            29      36
@@ -284,3 +288,222 @@ v: 1 5 2 6 7 4 3    |    7 5 6 1 4 2 3    LevelOrder  L>R
  - Heapsort : O(nlog(n))
 
 ![](/pictures/Heaps.PNG)
+
+## [DisjointSets<-T->](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/sets/sets/DisjointSet.cs)
+DisjointSets<-T-> | Ayrık Küme    Type Safety  -> generic  <br/>
+- Kruskal's minimum spanning tree algorithm
+- Finite-state automata
+- 'Rail Connection' is the equivalent relationship.
+```cs
+  a -> a        a = a      c = c         
+  b -> b              \   /             S = { a, b, c }
+  c -> c                b = b             
+```
+- 'R' ilişki kümesini belirtir
+
+        ∀(i≠j) Si ∩ Sj = ∅
+
+- Reflexive:
+
+        a ∈ S => a R a
+        a ≤ a ?? True;
+
+- Symmetric:
+
+        a, b ∈ S  =>  a R b == b R a  ??  TRUE;
+        a ≤ b  !=  b ≤ a  ->  Non-Symmetric!
+      
+- Transitive:
+
+        a, b, c ∈ S  =>  a R b == b R c == a R c  ??  TRUE;
+        a ≤ b  &&  b ≤ c  ?  a ≤ c == TRUE;   
+
+### [DisjointSets Abstract Type](/#)
+MAKESET(x)
+- Create a separate set with only element 'x'.  O(1)
+
+UNION(X, Y)
+- Creating a set containing X and Y elements.   O(1)
+
+        Sx = { a, b, c }
+        Sy = { x, y, z }
+        Sx, Sy  =>  Sx ∪ Sy  =>  Sx = { a, b, c, x, y, z }
+
+FIND(X)
+- Finding the name of the set containing element X.   O(n)
+- All Nodes in the path are connected to the Root.
+```cs
+            _?  =  Sets Representative
+  Sx :
+  { 1, 2, _7, 8, 9, 13, 19 }
+      FIND(8) = _7        
+                        UNION(_7, _20) == Sx ∪ Sy = Sx 
+                        Sx = { 1, 2, _7, 8, 9, 13, 19, 14, 20, 26, 27 }
+  Sy :                      
+  { 14, _20, 26, 27 }
+      FIND(14) = _20
+
+        c = c
+      / | \
+     a  b  f    S = { a, b, _c, d, f }
+        |
+        d
+```
+
+UNION by Weight (Size)
+- The smaller one becomes a subtree of the larger tree.
+
+```cs
+  Index :  0  1  2  3  4  5  6
+  Size  :  2  2 -3 -1 -1  6 -2       negative size = ROOT
+
+      (2) = (2)        (3) = (3)              (6) = (6)
+      / \   -3         -1                       \   -2
+    (0) (1)                   (4) = (4)         (5)
+     2   2                    -1                 6
+```
+
+UNION by Height (Rank)
+- The shorter one becomes a subtree of the tall tree.
+```cs
+  Index :  0  1  2  3  4  5  6
+  Rank  :  2  2 -2 -1 -1  6 -2       negative rank = ROOT
+
+      (2) = (2)        (3) = (3)              (6) = (6)
+      / \   -2         -1                       \   -2
+    (0) (1)                   (4) = (4)         (5)
+     2   2                    -1                 6
+```
+### Examples:
+```cs
+  Index :  1  2  3  4  5  6  7            Up[x] = 0 ? x == ROOT;
+  Up    :  0  1  0  7  7  5  0               ^ parent
+
+    (1) = (1)     (3) = (3)        (7) = (7)
+      \   -2      -1               / \   -4
+      (2)                        (4) (5)
+       1                         7   /  7
+                                   (6) 5
+```
+```cs                                 
+            7                            
+          /   \                     _3  ——  7           
+        5       4                         / | \        
+       /       /  \      FIND(_3)        6  5  4               
+      6       8    9      ----->         |    /  \        
+     /  \                               10   8    9
+   _3    10                                
+```
+
+![](/pictures/DisjointSets.PNG)
+
+## [Graphs<-T->](/#)
+G :=(V, E)  => (Vertex, Edge)   <br />
+```cs
+  V = {A, B, C, D}                            (A) —— (D)
+                                               /      |
+  E = {(A, B), (A, D), (C, D)}               (B)     (C)
+
+  G := ({A, B, C, D}, {(A, B), (A, D), (C, D)})
+```
+
+### Directed Edge
+
+      (u) ——> (v)
+      
+      Fİrst Node (u), orijin
+      Second Node (v), destination
+
+### Undirected Edge
+
+      (u) —— (v)
+
+### Directed Graph
+```cs
+         (A) —→ (D)
+         ↙       ↓
+        (B)     (C)
+```
+### Directed Acyclic Graph
+```cs
+        (A) → (D)
+         ↓  ↖  ↑
+        (B) ← (C)
+```
+### Undirected Graph
+```cs
+         (A) —— (D)
+         /       |
+       (B)      (C)
+```
+### Directed Acyclic Graph
+```cs
+        (A) —— (D)
+         |  \   |
+        (B) —— (C)
+```
+If a Graph has no loop, it can be expressed as a `Tree`.  <br />
+The Trees is an acyclic connected graph.  <br />
+```cs
+    A — A ——  D  —— G           D > C > E > D
+       /    /  \    |           G > F > E > D > G
+      B    C —— E — F           C > D > G > F > E > C
+```
+### Path
+If there are no repeating nodes in the path, it is called a `Simple Path`. <br/>
+```cs
+        A ——  D     G           B > A > D > C  
+       /    /  \    |           D > E > F > G
+      B    C —— E — F           B > A > D > C > E > F > G (Strongly Connected)
+```
+### Node Degree
+indeg - outdeg 
+```cs
+      A —→ D                
+      ↑ ↖  ↑ ↘        
+      B ←— C → E       
+```
+### Complete Graph
+All Nodes can be reached in one step.
+```cs
+      (A) —— (D)
+       |  \   |
+      (B) —— (C)
+```
+### Regular Graph
+All Nodes have the same degree.
+```cs
+      (A) —— (D)
+       |      |
+      (B) —— (C)
+```
+
+### Spanning Tree
+It is a `Sub-Graph` that includes all nodes.
+```cs
+         (A)              (A)           (A)           (A)
+        /   \     =>         \         /   \         /   
+      (B) — (C)        (B) — (C)     (B)   (C)     (B) — (C)
+```
+
+### Adjacency Matrix  O(n^2)
+Undirected Graphs were symmetrical.
+```cs         
+                    V x V
+    \ A  B  C  D
+    A 0  1  0  1          (A) —— (D)
+    B 1  0  0  0          /       |
+    C 0  0  0  1        (B)      (C)
+    D 1  0  1  0
+```
+
+### Weighted Matrix  
+Weighted Graphs were symmetrical.
+```cs         
+                            V x V
+    \ A    B    C    D                2.3
+    A 0   1.2   0   2.3           (A) —— (D)
+    B 1.2  0    0    0           / 1.2    | 5.5
+    C 0    0    0   5.5        (B)       (C)
+    D 2.3  0   5.5   0
+```

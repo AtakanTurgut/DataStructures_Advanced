@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="sets.DisjointSetNode&lt;T&gt;">
+    <Position X="1" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>DisjointSetNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sets.DisjointSet&lt;T&gt;">
+    <Position X="3.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAQAAAQAEAAAQAAEAAAAAQAAAAA=</HashCode>
+      <FileName>DisjointSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
