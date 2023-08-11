@@ -397,7 +397,7 @@ UNION by Height (Rank)
 
 ![](/pictures/DisjointSets.PNG)
 
-## [Graphs<-T->](Program.js)
+## [Graphs<-T->](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/Program.cs)
 G :=(V, E)  => (Vertex, Edge)   <br />
 ```cs
   V = {A, B, C, D}                            (A) —— (D)
@@ -407,18 +407,18 @@ G :=(V, E)  => (Vertex, Edge)   <br />
   G := ({A, B, C, D}, {(A, B), (A, D), (C, D)})
 ```
 
-### Directed Edge
+### [Directed Edge](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/Edge.cs)
 
       (u) ——> (v)
       
       Fİrst Node (u), orijin
       Second Node (v), destination
 
-### Undirected Edge
+### [Undirected Edge](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/Edge.cs)
 
       (u) —— (v)
 
-### [Directed Graph](DiGraph)
+### [Directed Graph](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/AdjacencySet/DiGraph.cs)
 ```cs
          (A) —→ (D)
          ↙       ↓
@@ -430,14 +430,14 @@ G :=(V, E)  => (Vertex, Edge)   <br />
          ↓  ↖  ↑
         (B) ← (C)
 ```
-### [Weighted Directed Graph](WeightedDiGraph) 
+### [Weighted Directed Graph](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/AdjacencySet/WeightedDiGraph.cs) 
 ```cs
           A   ←10—   B                
        7↗ ↓60  ↘12   ↑20         
       E   D   ←32—   C 
 ```
 
-### [Undirected Graph](Graph)
+### [Undirected Graph](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/AdjacencySet/Graph.cs)
 ```cs
          (A) —— (D)
          /       |
@@ -449,7 +449,7 @@ G :=(V, E)  => (Vertex, Edge)   <br />
          |  \   |
         (B) —— (C)
 ```
-### [Weighted Undirected Graph](WeightedGraph)
+### [Weighted Undirected Graph](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/AdjacencySet/WeightedGraph.cs)
 ```cs
                2.3
            (A) —— (D)
