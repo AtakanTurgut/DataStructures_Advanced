@@ -6,12 +6,26 @@ using trees.BinaryTree;
 #region - BinarySearchTree - BinaryTree -
 var bst = new BinarySearchTree<int>(new int[] { 23, 16, 45, 3, 22, 37, 99 });
 
+/*
+            23                  
+          /   \                 
+        16      45              
+       /  \    /  \            
+      3   22  37  99         
+*/
+
 foreach (int i in bst)
 {
     Console.Write($"{i,-5}");
 }
 
-Console.WriteLine("\n--    PreOrder  Recursive    --");
+Console.WriteLine("\n            23");
+Console.WriteLine(@"          /   \");
+Console.WriteLine("        16      45");
+Console.WriteLine(@"       /  \    /  \");
+Console.WriteLine("      3   22  37  99");
+
+Console.WriteLine("--    PreOrder  Recursive    --");
 new BinaryTree<int>().PreOrder(bst.Root).ForEach(node => Console.Write($"{node,-5}"));
 // 23   16   3    22   45   37   99
 

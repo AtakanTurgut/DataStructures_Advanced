@@ -397,7 +397,7 @@ UNION by Height (Rank)
 
 ![](/pictures/DisjointSets.PNG)
 
-## [Graphs<-T->](/#)
+## [Graphs<-T->](Program.js)
 G :=(V, E)  => (Vertex, Edge)   <br />
 ```cs
   V = {A, B, C, D}                            (A) —— (D)
@@ -418,7 +418,7 @@ G :=(V, E)  => (Vertex, Edge)   <br />
 
       (u) —— (v)
 
-### Directed Graph
+### [Directed Graph](DiGraph)
 ```cs
          (A) —→ (D)
          ↙       ↓
@@ -430,7 +430,14 @@ G :=(V, E)  => (Vertex, Edge)   <br />
          ↓  ↖  ↑
         (B) ← (C)
 ```
-### Undirected Graph
+### [Weighted Directed Graph](WeightedDiGraph) 
+```cs
+          A   ←10—   B                
+       7↗ ↓60  ↘12   ↑20         
+      E   D   ←32—   C 
+```
+
+### [Undirected Graph](Graph)
 ```cs
          (A) —— (D)
          /       |
@@ -441,6 +448,13 @@ G :=(V, E)  => (Vertex, Edge)   <br />
         (A) —— (D)
          |  \   |
         (B) —— (C)
+```
+### [Weighted Undirected Graph](WeightedGraph)
+```cs
+               2.3
+           (A) —— (D)
+          / 1.2    | 5.5
+        (B)       (C)
 ```
 If a Graph has no loop, it can be expressed as a `Tree`.  <br />
 The Trees is an acyclic connected graph.  <br />
@@ -507,3 +521,6 @@ Weighted Graphs were symmetrical.
     C 0    0    0   5.5        (B)       (C)
     D 2.3  0   5.5   0
 ```
+
+![](/pictures/Graphs1.PNG)
+![](/pictures/Graphs2.PNG)

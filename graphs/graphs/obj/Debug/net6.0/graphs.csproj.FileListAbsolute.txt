@@ -1,0 +1,15 @@
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\obj\Debug\net6.0\graphs.csproj.AssemblyReference.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\obj\Debug\net6.0\graphs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\obj\Debug\net6.0\graphs.AssemblyInfoInputs.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\obj\Debug\net6.0\graphs.AssemblyInfo.cs
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\obj\Debug\net6.0\graphs.csproj.CoreCompileInputs.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\bin\Debug\net6.0\graphs.exe
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\bin\Debug\net6.0\graphs.deps.json
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\bin\Debug\net6.0\graphs.runtimeconfig.json
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\bin\Debug\net6.0\graphs.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\bin\Debug\net6.0\graphs.pdb
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\obj\Debug\net6.0\graphs.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\obj\Debug\net6.0\refint\graphs.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\obj\Debug\net6.0\graphs.pdb
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\obj\Debug\net6.0\graphs.genruntimeconfig.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\graphs\graphs\obj\Debug\net6.0\ref\graphs.dll
