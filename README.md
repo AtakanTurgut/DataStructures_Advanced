@@ -524,3 +524,54 @@ Weighted Graphs were symmetrical.
 
 ![](/pictures/Graphs1.PNG)
 ![](/pictures/Graphs2.PNG)
+
+## [Depth First Search (DFS) Algorithm](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/Search/DepthFirst.cs)
+Depth is priority.  <br/>
+PreOrder Traversal  <br/>
+All Nodes and Edges are discovered.   <br/>
+The structure formed by removing the loops is called `DFS Tree`.    <br/>
+There may be more than one result.   <br/>
+It is not intended to find the shortest path.   <br/>
+Stacks => Last-in First-out     ->  LIFO  |  First-in Last-out     ->  FILO   <br/>
+
+- Topological Components
+- Connected Components
+- Articulation Points
+
+![](/pictures/dfs.PNG)
+
+## [Breadth First Search (BFS) Algorithm](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/Search/BreadthFirst.cs)
+Width takes precedence.   <br/>
+Level Order Traversal    <br/>
+The structure formed by using the edges coming out of the Node is called the "BFS Tree".   <br/>
+It also provides to find the shortest path for any Node.  <br/>
+It needs more memory.  <br/>
+Queues => First-in First-out    ->  FIFO   |  Last-in Last-out    ->  LILO      <br/>
+.EnQueue() .DeQueue()   <br/>
+
+- All Connected Components
+- Finding the shortest path.
+- Bipartite Graph Test
+
+![](/pictures/bfs.PNG)
+
+## [Minimum Spanning Tree - Prim's Algorithm](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/MinimumSpanningTree/Prims.cs)
+- Spanning Tree : It is a tree that contains all the nodes of the Graph. 
+- Minimum Spanning Tree : It is the spanning tree with the smallest sum of the weights.
+
+Greedy Algorithm - It uses the most suitable (optimal) solution.   <br/>
+Multiple spanning trees can occur, but the cost is kept to a minimum (minimum does not change).  <br/>
+
+![](/pictures/prims.PNG)
+
+## [Minimum Spanning Tree - Kruskal's Algorithm](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/MinimumSpanningTree/Kruskals.cs)
+- It is intended to find the Minimum Spanning Tree.
+- Start with the lightest edge.
+- Try not to loop.
+- There may be no connection between Edges and Nodes.
+
+Tree : It is an undirected, connected, and acyclic graph.   <br/>
+All Nodes must be in the tree.  <br/>
+Multiple spanning trees can occur, but the cost is kept to a minimum (minimum does not change).  <br/>
+
+![](/pictures/kruskals.PNG)

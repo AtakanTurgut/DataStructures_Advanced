@@ -1,4 +1,5 @@
 ﻿using graphs.AdjacencySet;
+using graphs.MinimumSpanningTree;
 
 #region Graph
 Console.WriteLine("---- Graph ----");
@@ -203,6 +204,96 @@ foreach (var key in weightedDiGraph)
         //Console.WriteLine($"   {key} - {weight} - {vertex}");
     }
 }
+#endregion
+
+#region Depth First Search - graph
+Console.WriteLine("\n- Depth First Search -");
+
+/*
+        A ——  D     G           
+       /    /  \    |           
+      B    C —— E — F           
+*/
+
+var dfs = new graphs.Search.DepthFirst<char>();
+
+Console.WriteLine("{0}", dfs.Find(graph, 'H') ? "Yes." : "No.");    // No.
+Console.WriteLine("{0}", dfs.Find(graph, 'C') ? "Yes." : "No.");    // Yes.
+#endregion
+
+#region Breadth First Search - graph
+Console.WriteLine("\n- Breadth First Search -");
+
+/*
+        A ——  D     G           
+       /    /  \    |           
+      B    C —— E — F           
+*/
+
+var bfs = new graphs.Search.BreadthFirst<char>();
+
+Console.WriteLine("{0}", bfs.Find(graph, 'H') ? "Yes." : "No.");    // No.
+Console.WriteLine("{0}", bfs.Find(graph, 'C') ? "Yes." : "No.");    // Yes.
+#endregion
+
+#region Minimum Spanning Tree - Prim's Algorithm
+Console.WriteLine("\n- Minimum Spanning Tree - Prim's Algorithm -");
+
+// Create Graph
+var graphPrims =  new graphs.AdjacencySet.WeightedGraph<int, int>();
+
+// Create Vertex
+for (int i = 0; i < 12; i++) graphPrims.AddVertex(i);
+
+// Add Edges
+graphPrims.AddEdge(0, 1, 4);    // 0 -4- 1
+graphPrims.AddEdge(0, 7, 8);    // 0 -8- 7
+graphPrims.AddEdge(1, 7, 11);   // 1 -11- 7
+graphPrims.AddEdge(1, 2, 8);    // 1 -8- 2
+graphPrims.AddEdge(7, 8, 7);    // 7 -7- 8
+graphPrims.AddEdge(7, 6, 1);    // 7 -1- 6
+graphPrims.AddEdge(6, 8, 6);    // 6 -6- 8
+graphPrims.AddEdge(2, 8, 2);    // 2 -2- 8
+graphPrims.AddEdge(2, 3, 7);    // 2 -7- 3
+graphPrims.AddEdge(2, 5, 4);    // 2 -4- 5
+graphPrims.AddEdge(6, 5, 2);    // 6 -2- 5
+graphPrims.AddEdge(3, 5, 14);   // 3 -14- 5
+graphPrims.AddEdge(3, 4, 9);    // 3 -9- 4
+graphPrims.AddEdge(5, 4, 10);   // 5 -10- 4
+
+var prims = new graphs.MinimumSpanningTree.Prims<int, int>();
+
+prims.FindMinimumSpanningTree(graphPrims).ForEach(edge => Console.WriteLine($"{edge, -3}"));
+#endregion
+
+#region Minimum Spanning Tree - Kruskal's Algorithm
+Console.WriteLine("\n- Minimum Spanning Tree - Kruskal's Algorithm -");
+
+// Create Graph
+var graphKruskals = new graphs.AdjacencySet.WeightedGraph<int, int>();
+
+// Create Vertex
+for (int i = 0; i < 12; i++) graphKruskals.AddVertex(i);
+
+// Add Edges
+graphKruskals.AddEdge(0, 1, 4);    // 0 -4- 1
+graphKruskals.AddEdge(0, 7, 8);    // 0 -8- 7
+graphKruskals.AddEdge(1, 7, 11);   // 1 -11- 7
+graphKruskals.AddEdge(1, 2, 8);    // 1 -8- 2
+graphKruskals.AddEdge(7, 8, 7);    // 7 -7- 8
+graphKruskals.AddEdge(7, 6, 1);    // 7 -1- 6
+graphKruskals.AddEdge(6, 8, 6);    // 6 -6- 8
+graphKruskals.AddEdge(2, 8, 2);    // 2 -2- 8
+graphKruskals.AddEdge(2, 3, 7);    // 2 -7- 3
+graphKruskals.AddEdge(2, 5, 4);    // 2 -4- 5
+graphKruskals.AddEdge(6, 5, 2);    // 6 -2- 5
+graphKruskals.AddEdge(3, 5, 14);   // 3 -14- 5
+graphKruskals.AddEdge(3, 4, 9);    // 3 -9- 4
+graphKruskals.AddEdge(5, 4, 10);   // 5 -10- 4
+
+var kruskals = new graphs.MinimumSpanningTree.Kruskals<int, int>();
+
+kruskals.FindMinimumSpanningTree(graphKruskals).ForEach(edge => Console.WriteLine($"{edge,-3}"));
 #endregion
 
 Console.WriteLine();
