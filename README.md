@@ -555,7 +555,7 @@ Queues => First-in First-out    ->  FIFO   |  Last-in Last-out    ->  LILO      
 
 ![](/pictures/bfs.PNG)
 
-## [Minimum Spanning Tree - Prim's Algorithm](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/MinimumSpanningTree/Prims.cs)
+## Minimum Spanning Tree - [Prim's Algorithm](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/MinimumSpanningTree/Prims.cs) - 
 - Spanning Tree : It is a tree that contains all the nodes of the Graph. 
 - Minimum Spanning Tree : It is the spanning tree with the smallest sum of the weights.
 
@@ -564,7 +564,7 @@ Multiple spanning trees can occur, but the cost is kept to a minimum (minimum do
 
 ![](/pictures/prims.PNG)
 
-## [Minimum Spanning Tree - Kruskal's Algorithm](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/MinimumSpanningTree/Kruskals.cs)
+## Minimum Spanning Tree - [Kruskal's Algorithm](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/graphs/graphs/MinimumSpanningTree/Kruskals.cs) -
 - It is intended to find the Minimum Spanning Tree.
 - Start with the lightest edge.
 - Try not to loop.
@@ -575,3 +575,47 @@ All Nodes must be in the tree.  <br/>
 Multiple spanning trees can occur, but the cost is kept to a minimum (minimum does not change).  <br/>
 
 ![](/pictures/kruskals.PNG)
+
+## [Sorting Algorithms](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/SortingAlgorithms/SortingAlgorithms/Program.cs)
+### [Selection Sort](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/SortingAlgorithms/SortingAlgorithms/SelectionSort.cs)  O(n^2)
+It performs sorting by working iteratively on the Sorted array of two arrays, Sorted and Unsorted part.  <br/>
+![](/pictures/SelectionSort.PNG)
+
+### [Bubble Sort](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/SortingAlgorithms/SortingAlgorithms/BubbleSort.cs)  O(n^2)
+Sorts using the neighboring element.  Node <-> NextNode   <br/>
+Works as recursive.   <br/>
+![](/pictures/BubbleSort.PNG)
+
+### [Insertion Sort](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/SortingAlgorithms/SortingAlgorithms/InsertionSort.cs)  O(n^2)
+It is used to sort one-dimensional arrays.  <br/>
+It performs sorting by working iteratively on the Sorted array of two arrays, Sorted and Unsorted part.  <br/>
+Start from second value.  <br/>
+![](/pictures/InsertionSort.PNG)
+
+### [Quick Sort](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/SortingAlgorithms/SortingAlgorithms/QuickSort.cs)  O(nlog(n))
+Divide and Conquer Algorithm  -  Pivot Value.  <br/>
+
+      | smaller than pivot | PIVOT | bigger than pivot |
+
+It is an effective sorting algorithm.  <br/>
+It can be two or three times faster compared to algorithms like `MergeSort` and `HeapSort`.  <br/>
+![](/pictures/QuickSort.PNG)
+
+### [Merge Sort](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/SortingAlgorithms/SortingAlgorithms/MergeSort.cs)  O(nlog(n))
+Divide and Conquer Algorithm    <br/>
+- Divide  : It is the process of splitting into substrings.
+
+        mid  ==>  low + (high - low) / 2    ||   (low + high) / 2
+        If it's a single array, always add 1 to the left.
+
+- Conquer : The dividing subsequences are sorted recursively.
+- Combine : It is the process of combining two sorted substrings.
+
+It divides into two equal parts and combines them in order.   <br/>
+base-case  ||  multiple recursions    <br/>
+![](/pictures/MergeSort.PNG)
+
+### [Heap Sort](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/SortingAlgorithms/SortingAlgorithms/heaps/MinHeap.cs)  O(nlog(n))
+Level Order Traversal   <br/>
+MinHeap -> .DeleteMinMax()   <br/>
+![](/pictures/HeapSort.PNG)
