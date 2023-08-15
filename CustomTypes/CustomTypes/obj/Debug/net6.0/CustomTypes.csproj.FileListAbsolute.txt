@@ -1,0 +1,15 @@
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\bin\Debug\net6.0\CustomTypes.exe
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\bin\Debug\net6.0\CustomTypes.deps.json
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\bin\Debug\net6.0\CustomTypes.runtimeconfig.json
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\bin\Debug\net6.0\CustomTypes.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\bin\Debug\net6.0\CustomTypes.pdb
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\obj\Debug\net6.0\CustomTypes.csproj.AssemblyReference.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\obj\Debug\net6.0\CustomTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\obj\Debug\net6.0\CustomTypes.AssemblyInfoInputs.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\obj\Debug\net6.0\CustomTypes.AssemblyInfo.cs
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\obj\Debug\net6.0\CustomTypes.csproj.CoreCompileInputs.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\obj\Debug\net6.0\CustomTypes.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\obj\Debug\net6.0\refint\CustomTypes.dll
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\obj\Debug\net6.0\CustomTypes.pdb
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\obj\Debug\net6.0\CustomTypes.genruntimeconfig.cache
+C:\Users\Excalibur\Desktop\AlgoritmaVe VeriYapıları İleriSeviye\CustomTypes\CustomTypes\obj\Debug\net6.0\ref\CustomTypes.dll

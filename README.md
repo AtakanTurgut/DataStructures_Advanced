@@ -619,3 +619,7 @@ base-case  ||  multiple recursions    <br/>
 Level Order Traversal   <br/>
 MinHeap -> .DeleteMinMax()   <br/>
 ![](/pictures/HeapSort.PNG)
+
+## [Custom Type](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/CustomTypes/CustomTypes/Program.cs)
+### [Student Class](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/CustomTypes/CustomTypes/Student.cs)
+Working with Custom Type.
