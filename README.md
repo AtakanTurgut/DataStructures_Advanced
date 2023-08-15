@@ -622,4 +622,4 @@ MinHeap -> .DeleteMinMax()   <br/>
 
 ## [Custom Type](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/CustomTypes/CustomTypes/Program.cs)
 ### [Student Class](https://github.com/AtakanTurgut/DataStructures_Advanced/blob/main/CustomTypes/CustomTypes/Student.cs)
-Working with Custom Type.
+Working with Custom Type. 
